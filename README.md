@@ -23,6 +23,6 @@ Cross-border e-commerce logistics relies heavily on predictable transit times an
 1. **Customs Bottleneck Identification**: `Jagodzin-Dorohusk Hub` drives the majority of SLA breaches, showing a **p95 customs clearance time of ~76 hours** compared to ~17 hours at other checkpoints.
 2. **Financial & Cash-Flow Impact**: Routes experiencing prolonged customs delays correlate with lower On-Time Delivery (OTD %) rates and extended B2B invoice collection cycles (higher **DSO**).
 
-## 🚀 How to Run
+## How to Run
 1. Run `01_schema_and_seed_data.sql` in **PostgreSQL 14+** (or [DB Fiddle](https://www.db-fiddle.com/) with PostgreSQL selected) to create the tables and populate the dataset.
 2. Run `02_analytical_queries.sql` to execute the analytical queries and generate the `vw_logistics_kpi_summary` reporting view.
